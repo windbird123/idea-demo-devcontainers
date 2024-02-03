@@ -1,2 +1,1 @@
-FROM ubuntu:16.04
-ENV MYSQL_DATABASE DOCKERDB
+FROM jupyter/pyspark-notebook
