@@ -3,6 +3,5 @@
   // name of the dev container
   "name": "idea-demo",
   "image": "my-app",
-  "mounts": [{"source": "data", "target": "/IdeaProjects/data", "type": "volume"}],
   "remoteUser": "root"
 }
