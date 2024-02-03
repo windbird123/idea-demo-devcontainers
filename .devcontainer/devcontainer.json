@@ -3,6 +3,6 @@
   // name of the dev container
   "name": "idea-demo",
   "image": "my-app",
-  "mounts": [{"source": "data", "target": "/home/windbird/tmp/data", "type": "volume"}],
+  "mounts": [{"source": "/home/windbird/tmp/data", "target": "/IdeaProjects/data", "type": "volume"}],
   "remoteUser": "root"
 }
